@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Invisalign, Root Canals & Dental Botox in Chandler, AZ | Anantuni Family Dental</title>
+  <meta
+    name="description"
+    content="Anantuni Family Dental provides Invisalign, root canals, and dental Botox in Chandler, AZ. Comfortable care, modern dentistry, and trusted local treatment options."
+  />
+
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --soft: #ecfeff;
+      --shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+      --danger: #ef4444;
+      --success: #16a34a;
+      --warning: #f59e0b;
+      --max: 1140px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(92%, var(--max));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 0;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .nav a {
+      color: var(--text);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--soft) 0%, #ffffff 100%);
+      padding: 72px 0 56px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      color: var(--primary);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.12;
+      margin: 0 0 18px;
+    }
+
+    h2 {
+      font-size: clamp(1.7rem, 3vw, 2.3rem);
+      margin: 0 0 12px;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 1.1rem;
+    }
+
+    .hero p,
+    .section-heading p,
+    .card p,
+    .feature p,
+    .faq-item p,
+    .final-cta p {
+      color: var(--muted);
+    }
+
+    .hero p {
+      font-size: 1.08rem;
+      margin: 0 0 24px;
+      max-width: 720px;
+    }
+
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: 0.2s ease;
+      cursor: pointer;
+      font-size: 0.98rem;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: var(--text);
+      border-color: var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: #f9fafb;
+      text-decoration: none;
+    }
+
+    .trust {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .hero-card,
+    .card,
+    .feature,
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+    }
+
+    .hero-card {
+      padding: 24px;
+    }
+
+    .hero-card ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .hero-card li + li {
+      margin-top: 8px;
+    }
+
+    section {
+      padding: 64px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 38px;
+    }
+
+    .section-heading p {
+      margin: 0 auto;
+      max-width: 760px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      padding: 26px;
+    }
+
+    .feature-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .feature {
+      padding: 22px;
+    }
+
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    blockquote {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .review-source {
+      display: block;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .faq {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      padding: 22px;
+    }
+
+    .faq-item + .faq-item {
+      margin-top: 14px;
+    }
+
+    .service-area {
+      background: #fff;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .locations {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .pill {
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--primary-dark);
+      font-weight: 700;
+      border: 1px solid #ccfbf1;
+    }
+
+    .final-cta {
+      text-align: center;
+    }
+
+    footer {
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 36px 0;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .footer-grid p,
+    .footer-grid a {
+      color: #cbd5e1;
+    }
+
+    .footer-grid h3 {
+      color: #fff;
+    }
+
+    /* Booking modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 2000;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal {
+      width: min(1100px, 100%);
+      max-height: 90vh;
+      overflow: auto;
+      background: #fff;
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 1;
+    }
+
+    .modal-title-wrap p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .modal-close {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #fff;
+      cursor: pointer;
+      font-size: 1.2rem;
+    }
+
+    .modal-body {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1.25fr 0.9fr;
+      gap: 20px;
+    }
+
+    .calendar-panel,
+    .slots-panel {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .calendar-toolbar,
+    .slots-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--border);
+      background: #fcfcfd;
+    }
+
+    .calendar-nav {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .icon-btn {
+      width: 38px;
+      height: 38px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #fff;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .calendar-grid {
+      padding: 14px;
+    }
+
+    .calendar-days,
+    .calendar-dates {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 8px;
+    }
+
+    .calendar-days div {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 8px 0;
+    }
+
+    .date-cell {
+      min-height: 88px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #fff;
+      padding: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: 0.18s ease;
+    }
+
+    .date-cell:hover {
+      border-color: #99f6e4;
+      background: #f0fdfa;
+    }
+
+    .date-cell.empty {
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .date-cell.past {
+      background: #f9fafb;
+      color: #9ca3af;
+      cursor: not-allowed;
+    }
+
+    .date-cell.selected {
+      border-color: var(--primary);
+      background: var(--soft);
+      box-shadow: inset 0 0 0 1px var(--primary);
+    }
+
+    .date-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .date-number {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .status-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 4px 8px;
+      width: fit-content;
+    }
+
+    .status-open {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .status-limited {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    .status-full {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .slot-summary {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    .slots-content {
+      padding: 18px;
+    }
+
+    .slots-meta {
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .slot-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .slot-btn {
+      border: 1px solid var(--border);
+      background: #fff;
+      border-radius: 12px;
+      padding: 12px 10px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .slot-btn:hover {
+      background: #f0fdfa;
+      border-color: #99f6e4;
+    }
+
+    .slot-btn.selected {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    .slot-btn.unavailable {
+      background: #f9fafb;
+      color: #9ca3af;
+      cursor: not-allowed;
+    }
+
+    .booking-form {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      display: grid;
+      gap: 12px;
+    }
+
+    .form-row {
+      display: grid;
+      gap: 6px;
+    }
+
+    .form-row label {
+      font-weight: 700;
+      font-size: 0.92rem;
+    }
+
+    .form-row input,
+    .form-row select,
+    .form-row textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid #d1d5db;
+      font: inherit;
+    }
+
+    .booking-note {
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .booking-success {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border: 1px solid #bbf7d0;
+      background: #f0fdf4;
+      color: #166534;
+      border-radius: 12px;
+      display: none;
+    }
+
+    /* Chat widget */
+    .chat-toggle {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 64px;
+      height: 64px;
+      border-radius: 999px;
+      border: none;
+      background: var(--primary);
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      z-index: 3000;
+    }
+
+    .chat-widget {
+      position: fixed;
+      right: 20px;
+      bottom: 96px;
+      width: min(360px, calc(100vw - 24px));
+      height: 520px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 3000;
+    }
+
+    .chat-widget.open {
+      display: flex;
+    }
+
+    .chat-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 16px;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .chat-close {
+      background: transparent;
+      color: #fff;
+      border: none;
+      font-size: 1.15rem;
+      cursor: pointer;
+    }
+
+    .chat-messages {
+      flex: 1;
+      padding: 14px;
+      overflow-y: auto;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .chat-bubble {
+      max-width: 84%;
+      padding: 12px 14px;
+      border-radius: 16px;
+      line-height: 1.45;
+      white-space: pre-wrap;
+      border: 1px solid var(--border);
+    }
+
+    .chat-bubble.user {
+      align-self: flex-end;
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+    }
+
+    .chat-bubble.bot {
+      align-self: flex-start;
+      background: #f3f4f6;
+      color: var(--text);
+    }
+
+    .chat-form {
+      display: flex;
+      gap: 10px;
+      padding: 12px;
+      border-top: 1px solid var(--border);
+      background: #f8fafc;
+    }
+
+    .chat-input {
+      flex: 1;
+      border: 1px solid #d1d5db;
+      border-radius: 999px;
+      padding: 12px 14px;
+      font: inherit;
+    }
+
+    .chat-send {
+      border: none;
+      border-radius: 999px;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 700;
+      padding: 12px 16px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .grid-3,
+      .reviews,
+      .feature-list,
+      .footer-grid,
+      .modal-body {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .slot-list {
+        grid-template-columns: 1fr;
+      }
+
+      .date-cell {
+        min-height: 78px;
+        padding: 8px;
+      }
+
+      .calendar-days div {
+        font-size: 0.78rem;
+      }
+
+      .chat-widget {
+        right: 12px;
+        bottom: 88px;
+        width: calc(100vw - 24px);
+        height: 72vh;
+      }
+
+      .chat-toggle {
+        right: 12px;
+        bottom: 12px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Anantuni Family Dental",
+    "url": "https://www.mydentistchandler.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chandler",
+      "addressRegion": "AZ",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Chandler AZ",
+      "Gilbert AZ",
+      "Ahwatukee AZ",
+      "Sun Lakes AZ",
+      "Ocotillo AZ"
+    ],
+    "medicalSpecialty": [
+      "Invisalign",
+      "Root Canal Treatment",
+      "Dental Botox"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">Anantuni Family Dental</div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQs</a>
+        <a href="#areas">Areas We Serve</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Chandler, Arizona Dentist</span>
+          <h1>Invisalign, Root Canals & Dental Botox in Chandler, AZ</h1>
+          <p>
+            Anantuni Family Dental provides modern, comfortable dental care for patients looking for
+            Invisalign, root canal treatment, and dental Botox in Chandler, Gilbert, Ahwatukee,
+            Sun Lakes, and nearby communities.
+          </p>
+
+          <div class="cta-row">
+            <button class="btn btn-primary" id="openBookingHero" type="button">Book Appointment</button>
+            <a class="btn btn-secondary" href="tel:+14800000000">Call Now</a>
+          </div>
+
+          <div class="trust" aria-label="Trust indicators">
+            <span>★★★★★ Highly rated by local patients</span>
+            <span>Comfort-focused care</span>
+            <span>Serving Chandler and nearby areas</span>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Top treatments">
+          <h3>What patients ask us about most</h3>
+          <ul>
+            <li><strong>Invisalign:</strong> clear aligners for a straighter smile without metal braces</li>
+            <li><strong>Root Canals:</strong> gentle treatment to relieve pain and save your tooth</li>
+            <li><strong>Dental Botox:</strong> support for jaw tension, TMJ discomfort, and facial aesthetics</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Focused Dental Care for High-Intent Patient Needs</h2>
+          <p>
+            This page is structured to clearly explain the services patients search for most often:
+            Invisalign in Chandler, root canals in Chandler, and dental Botox in Chandler, AZ.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Invisalign in Chandler, AZ</h3>
+            <p>
+              Straighten your teeth with custom clear aligners designed for comfort, convenience,
+              and predictable results.
+            </p>
+            <a href="/invisalign-chandler-az">Learn more about Invisalign</a>
+          </article>
+
+          <article class="card">
+            <h3>Root Canal Treatment in Chandler, AZ</h3>
+            <p>
+              If you have tooth pain, infection, sensitivity, or swelling, root canal treatment can
+              relieve discomfort and help save your natural tooth.
+            </p>
+            <a href="/root-canal-chandler-az">Learn more about Root Canals</a>
+          </article>
+
+          <article class="card">
+            <h3>Dental Botox in Chandler, AZ</h3>
+            <p>
+              Dental Botox may help reduce jaw tension, clenching, and TMJ-related discomfort while
+              also supporting facial aesthetic goals.
+            </p>
+            <a href="/dental-botox-chandler-az">Learn more about Dental Botox</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h2>Why Patients Choose Anantuni Family Dental</h2>
+          <p>
+            Patients want clear answers, strong reviews, convenient local care, and services that match
+            what they are actually searching for online.
+          </p>
+        </div>
+
+        <div class="feature-list">
+          <div class="feature">
+            <h3>Comfort-First Care</h3>
+            <p>We focus on a calm, supportive dental experience for routine and advanced treatment.</p>
+          </div>
+          <div class="feature">
+            <h3>Modern Dental Technology</h3>
+            <p>Our team uses updated techniques and technology to improve comfort and efficiency.</p>
+          </div>
+          <div class="feature">
+            <h3>Trusted Local Reputation</h3>
+            <p>Positive Google reviews help patients feel confident choosing us for Invisalign, root canals, and Botox.</p>
+          </div>
+          <div class="feature">
+            <h3>Convenient Chandler Location</h3>
+            <p>Easy access for patients from Chandler, Gilbert, Ahwatukee, Sun Lakes, and nearby neighborhoods.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div class="container">
+        <div class="section-heading">
+          <h2>What Patients Say</h2>
+          <p>
+            Service-specific reviews help both people and AI systems understand what your practice is known for.
+          </p>
+        </div>
+
+        <div class="reviews">
+          <div class="card">
+            <blockquote>
+              “I had Invisalign done here and the whole process was smooth, professional, and clearly explained.
+              I’m so happy with my smile.”
+            </blockquote>
+            <span class="review-source">Google Review</span>
+          </div>
+
+          <div class="card">
+            <blockquote>
+              “I was nervous about getting a root canal, but the visit was comfortable and much easier than I expected.
+              The team made me feel at ease.”
+            </blockquote>
+            <span class="review-source">Google Review</span>
+          </div>
+
+          <div class="card">
+            <blockquote>
+              “I came in for jaw tension and asked about Botox. The dentist explained everything well and the treatment made a real difference.”
+            </blockquote>
+            <span class="review-source">Google Review</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Common Questions</h2>
+          <p>
+            FAQ content is especially useful because it matches the way people ask ChatGPT, Gemini, and Google.
+          </p>
+        </div>
+
+        <div class="faq">
+          <div class="faq-item">
+            <h3>How much does Invisalign cost in Chandler, AZ?</h3>
+            <p>
+              Invisalign pricing depends on the complexity of your case and how long treatment will take.
+              We provide a consultation, treatment plan, and clear pricing options before you begin.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Is a root canal painful?</h3>
+            <p>
+              Modern root canal treatment is designed to relieve pain, not cause it. Most patients compare it
+              to getting a filling, and treatment helps preserve the natural tooth.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Can a dentist provide Botox?</h3>
+            <p>
+              Dentists with proper training may provide Botox for therapeutic and cosmetic use. It may be used
+              for jaw tension, clenching, TMJ symptoms, and facial aesthetic goals.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Do you serve patients outside Chandler?</h3>
+            <p>
+              Yes. We regularly see patients from Gilbert, Ahwatukee, Sun Lakes, Ocotillo, and surrounding areas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="areas" class="service-area">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Serving Chandler and Nearby Communities</h2>
+          <p>
+            Local relevance matters. Patients and AI platforms both look for city and neighborhood signals
+            when recommending a dental practice.
+          </p>
+        </div>
+
+        <div class="locations" aria-label="Service areas">
+          <span class="pill">Chandler</span>
+          <span class="pill">Gilbert</span>
+          <span class="pill">Ahwatukee</span>
+          <span class="pill">Sun Lakes</span>
+          <span class="pill">Ocotillo</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container final-cta">
+        <div class="section-heading">
+          <h2>Ready to Schedule Your Visit?</h2>
+        </div>
+        <p>
+          Whether you are comparing Invisalign providers, looking for a root canal in Chandler, or exploring
+          dental Botox, Anantuni Family Dental is here to help with clear answers and personalized care.
+        </p>
+        <div class="cta-row" style="justify-content:center;">
+          <button class="btn btn-primary" id="openBookingFooter" type="button">Book Appointment</button>
+          <a class="btn btn-secondary" href="tel:+14800000000">Call Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>Anantuni Family Dental</h3>
+        <p>
+          Invisalign, root canal treatment, and dental Botox in Chandler, AZ.
+          Comfortable, modern care for patients in Chandler and surrounding communities.
+        </p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Chandler, AZ</p>
+        <p><a href="tel:+14800000000">(480) 000-0000</a></p>
+        <p><a href="#contact">Schedule an appointment</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking modal -->
+  <div class="modal-backdrop" id="bookingModal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="bookingModalTitle">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <h3 id="bookingModalTitle">Book an Appointment</h3>
+          <p>Select a date and time to request your visit.</p>
+        </div>
+        <button class="modal-close" id="closeBookingModal" type="button" aria-label="Close">×</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="calendar-panel">
+          <div class="calendar-toolbar">
+            <strong id="calendarMonthLabel">Month Year</strong>
+            <div class="calendar-nav">
+              <button class="icon-btn" id="prevMonthBtn" type="button" aria-label="Previous month">‹</button>
+              <button class="icon-btn" id="nextMonthBtn" type="button" aria-label="Next month">›</button>
+            </div>
+          </div>
+
+          <div class="calendar-grid">
+            <div class="calendar-days">
+              <div>Sun</div>
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+            </div>
+            <div class="calendar-dates" id="calendarDates"></div>
+          </div>
+        </div>
+
+        <div class="slots-panel">
+          <div class="slots-header">
+            <strong id="selectedDateLabel">Choose a date</strong>
+          </div>
+
+          <div class="slots-content">
+            <div class="slots-meta" id="slotsMeta">
+              Available times will appear here after you select a date.
+            </div>
+
+            <div class="slot-list" id="slotList"></div>
+
+            <form class="booking-form" id="bookingForm">
+              <div class="form-row">
+                <label for="bookingService">Service</label>
+                <select id="bookingService" required>
+                  <option value="">Select a service</option>
+                  <option>Invisalign Consultation</option>
+                  <option>Root Canal Consultation</option>
+                  <option>Dental Botox Consultation</option>
+                  <option>Cleaning / Checkup</option>
+                  <option>Emergency Visit</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="bookingName">Full Name</label>
+                <input id="bookingName" type="text" required />
+              </div>
+
+              <div class="form-row">
+                <label for="bookingPhone">Phone</label>
+                <input id="bookingPhone" type="tel" required />
+              </div>
+
+              <div class="form-row">
+                <label for="bookingEmail">Email</label>
+                <input id="bookingEmail" type="email" />
+              </div>
+
+              <div class="form-row">
+                <label for="bookingNotes">Notes</label>
+                <textarea id="bookingNotes" rows="3" placeholder="Optional details"></textarea>
+              </div>
+
+              <div class="booking-note">
+                This demo shows sample availability. Connect it to your real scheduler or PMS to display actual office availability.
+              </div>
+
+              <button class="btn btn-primary" id="submitBookingBtn" type="submit">Request Appointment</button>
+              <div class="booking-success" id="bookingSuccess"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat widget -->
+  <button class="chat-toggle" id="chatToggleBtn" type="button" aria-label="Open chat">💬</button>
+
+  <div class="chat-widget" id="chatWidget" aria-hidden="true">
+    <div class="chat-header">
+      <span>Ask Anantuni Dental</span>
+      <button class="chat-close" id="chatCloseBtn" type="button" aria-label="Close chat">×</button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-bubble bot">
+        Hi! Ask about Invisalign, root canals, Botox, office info, or appointments.
+      </div>
+    </div>
+
+    <form class="chat-form" id="chatForm">
+      <input
+        class="chat-input"
+        id="chatInput"
+        type="text"
+        placeholder="Ask a question..."
+        autocomplete="off"
+      />
+      <button class="chat-send" id="chatSendBtn" type="submit">Send</button>
+    </form>
+  </div>
+
+  <script>
+    // ----------------------------
+    // Booking calendar
+    // ----------------------------
+    const bookingModal = document.getElementById("bookingModal");
+    const openBookingHero = document.getElementById("openBookingHero");
+    const openBookingFooter = document.getElementById("openBookingFooter");
+    const closeBookingModal = document.getElementById("closeBookingModal");
+    const calendarMonthLabel = document.getElementById("calendarMonthLabel");
+    const calendarDates = document.getElementById("calendarDates");
+    const selectedDateLabel = document.getElementById("selectedDateLabel");
+    const slotsMeta = document.getElementById("slotsMeta");
+    const slotList = document.getElementById("slotList");
+    const prevMonthBtn = document.getElementById("prevMonthBtn");
+    const nextMonthBtn = document.getElementById("nextMonthBtn");
+    const bookingForm = document.getElementById("bookingForm");
+    const bookingSuccess = document.getElementById("bookingSuccess");
+
+    let selectedDateKey = "";
+    let selectedSlot = "";
+    const today = new Date();
+    let currentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+
+    function openModal() {
+      bookingModal.classList.add("open");
+      bookingModal.setAttribute("aria-hidden", "false");
+    }
+
+    function closeModal() {
+      bookingModal.classList.remove("open");
+      bookingModal.setAttribute("aria-hidden", "true");
+      bookingSuccess.style.display = "none";
+    }
+
+    openBookingHero.addEventListener("click", openModal);
+    openBookingFooter.addEventListener("click", openModal);
+    closeBookingModal.addEventListener("click", closeModal);
+
+    bookingModal.addEventListener("click", (e) => {
+      if (e.target === bookingModal) closeModal();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && bookingModal.classList.contains("open")) closeModal();
+    });
+
+    function formatDateKey(date) {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, "0");
+      const d = String(date.getDate()).padStart(2, "0");
+      return `${y}-${m}-${d}`;
+    }
+
+    function formatPrettyDate(date) {
+      return date.toLocaleDateString("en-US", {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+        year: "numeric"
+      });
+    }
+
+    function seedAvailability(date) {
+      const day = date.getDay();
+      const dayNum = date.getDate();
+
+      if (day === 0 || day === 6) {
+        return { status: "full", slots: [] };
+      }
+
+      const baseSlots = [
+        "8:30 AM",
+        "9:15 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "1:30 PM",
+        "2:15 PM",
+        "3:00 PM",
+        "4:00 PM"
+      ];
+
+      const pattern = (dayNum + (date.getMonth() + 1) * 3) % 5;
+
+      if (pattern === 0) {
+        return { status: "full", slots: [] };
+      }
+
+      if (pattern === 1) {
+        return { status: "limited", slots: ["9:15 AM", "1:30 PM", "3:00 PM"] };
+      }
+
+      if (pattern === 2) {
+        return { status: "limited", slots: ["8:30 AM", "11:00 AM", "2:15 PM"] };
+      }
+
+      const slots = baseSlots.filter((_, idx) => (idx + dayNum) % 3 !== 0);
+      return { status: "open", slots };
+    }
+
+    function getStatusClass(status) {
+      if (status === "open") return "status-open";
+      if (status === "limited") return "status-limited";
+      return "status-full";
+    }
+
+    function getStatusText(status) {
+      if (status === "open") return "Open";
+      if (status === "limited") return "Limited";
+      return "Full";
+    }
+
+    function renderCalendar() {
+      calendarDates.innerHTML = "";
+      const year = currentMonth.getFullYear();
+      const month = currentMonth.getMonth();
+      const firstDay = new Date(year, month, 1);
+      const lastDay = new Date(year, month + 1, 0);
+      const firstWeekday = firstDay.getDay();
+      const daysInMonth = lastDay.getDate();
+
+      calendarMonthLabel.textContent = currentMonth.toLocaleDateString("en-US", {
+        month: "long",
+        year: "numeric"
+      });
+
+      for (let i = 0; i < firstWeekday; i++) {
+        const empty = document.createElement("div");
+        empty.className = "date-cell empty";
+        calendarDates.appendChild(empty);
+      }
+
+      for (let day = 1; day <= daysInMonth; day++) {
+        const date = new Date(year, month, day);
+        const dateKey = formatDateKey(date);
+        const availability = seedAvailability(date);
+        const isPast = new Date(year, month, day, 23, 59, 59) < today;
+
+        const cell = document.createElement("button");
+        cell.type = "button";
+        cell.className = "date-cell";
+        if (isPast) cell.classList.add("past");
+        if (selectedDateKey === dateKey) cell.classList.add("selected");
+
+        const slotText =
+          availability.status === "full"
+            ? "No slots"
+            : `${availability.slots.length} time${availability.slots.length === 1 ? "" : "s"} available`;
+
+        cell.innerHTML = `
+          <div class="date-top">
+            <span class="date-number">${day}</span>
+            <span class="status-badge ${getStatusClass(availability.status)}">${getStatusText(availability.status)}</span>
+          </div>
+          <div class="slot-summary">${slotText}</div>
+        `;
+
+        if (!isPast) {
+          cell.addEventListener("click", () => {
+            selectedDateKey = dateKey;
+            selectedSlot = "";
+            renderCalendar();
+            renderSlots(date);
+          });
+        }
+
+        calendarDates.appendChild(cell);
+      }
+    }
+
+    function renderSlots(date) {
+      const availability = seedAvailability(date);
+      selectedDateLabel.textContent = formatPrettyDate(date);
+      slotList.innerHTML = "";
+
+      if (availability.status === "full") {
+        slotsMeta.textContent = "No online times available for this date. Please choose another day or call the office.";
+        return;
+      }
+
+      slotsMeta.textContent =
+        availability.status === "limited"
+          ? "Limited availability for this date."
+          : "Select a time below to request your appointment.";
+
+      availability.slots.forEach((slot) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "slot-btn";
+        if (selectedSlot === slot) btn.classList.add("selected");
+        btn.textContent = slot;
+        btn.addEventListener("click", () => {
+          selectedSlot = slot;
+          renderSlots(date);
+        });
+        slotList.appendChild(btn);
+      });
+    }
+
+    prevMonthBtn.addEventListener("click", () => {
+      currentMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() - 1, 1);
+      renderCalendar();
+    });
+
+    nextMonthBtn.addEventListener("click", () => {
+      currentMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 1);
+      renderCalendar();
+    });
+
+    bookingForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      if (!selectedDateKey || !selectedSlot) {
+        alert("Please select a date and time.");
+        return;
+      }
+
+      const service = document.getElementById("bookingService").value.trim();
+      const name = document.getElementById("bookingName").value.trim();
+      const phone = document.getElementById("bookingPhone").value.trim();
+      const email = document.getElementById("bookingEmail").value.trim();
+
+      if (!service || !name || !phone) {
+        alert("Please fill in the required fields.");
+        return;
+      }
+
+      bookingSuccess.style.display = "block";
+      bookingSuccess.textContent =
+        `Appointment request received for ${name} on ${selectedDateLabel.textContent} at ${selectedSlot}. ` +
+        `This demo confirms the request on-screen. Next step is sending it to your real scheduler, CRM, or front desk workflow.`;
+    });
+
+    renderCalendar();
+
+    // ----------------------------
+    // Chat widget
+    // ----------------------------
+    const chatToggleBtn = document.getElementById("chatToggleBtn");
+    const chatWidget = document.getElementById("chatWidget");
+    const chatCloseBtn = document.getElementById("chatCloseBtn");
+    const chatMessages = document.getElementById("chatMessages");
+    const chatForm = document.getElementById("chatForm");
+    const chatInput = document.getElementById("chatInput");
+    const chatSendBtn = document.getElementById("chatSendBtn");
+
+    const chatHistory = [
+      {
+        role: "system",
+        content:
+          "You are the website assistant for Anantuni Family Dental in Chandler, Arizona. " +
+          "Be friendly, concise, and helpful. Prioritize Invisalign, root canals, dental Botox, appointments, office location, and patient questions. " +
+          "Do not invent office-specific facts, prices, insurance details, or emergency advice beyond recommending the patient call the office for urgent needs."
+      }
+    ];
+
+    function addMessage(role, text) {
+      const bubble = document.createElement("div");
+      bubble.className = `chat-bubble ${role === "user" ? "user" : "bot"}`;
+      bubble.textContent = text;
+      chatMessages.appendChild(bubble);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function setChatLoading(isLoading) {
+      chatSendBtn.disabled = isLoading;
+      chatInput.disabled = isLoading;
+      chatSendBtn.textContent = isLoading ? "..." : "Send";
+    }
+
+    chatToggleBtn.addEventListener("click", () => {
+      chatWidget.classList.toggle("open");
+      const isOpen = chatWidget.classList.contains("open");
+      chatWidget.setAttribute("aria-hidden", isOpen ? "false" : "true");
+    });
+
+    chatCloseBtn.addEventListener("click", () => {
+      chatWidget.classList.remove("open");
+      chatWidget.setAttribute("aria-hidden", "true");
+    });
+
+    chatForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const prompt = chatInput.value.trim();
+      if (!prompt) return;
+
+      addMessage("user", prompt);
+      chatHistory.push({ role: "user", content: prompt });
+      chatInput.value = "";
+      setChatLoading(true);
+
+      try {
+        const res = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ messages: chatHistory })
+        });
+
+        if (!res.ok) throw new Error("Request failed");
+
+        const data = await res.json();
+        const reply = data.reply || "Sorry, I could not generate a response.";
+
+        addMessage("assistant", reply);
+        chatHistory.push({ role: "assistant", content: reply });
+      } catch (err) {
+        addMessage("assistant", "Sorry, something went wrong. Please call the office or try again.");
+        console.error(err);
+      } finally {
+        setChatLoading(false);
+        chatInput.focus();
+      }
+    });
+
+    // Quick verification checklist:
+    // [ ] Book Appointment opens the modal calendar
+    // [ ] Clicking a future date loads time slots
+    // [ ] Selecting a slot + submitting shows the confirmation message
+    // [ ] Chat bubble opens from the bottom-right corner
+    // [ ] /api/chat returns JSON with a reply
+    // [ ] Replace demo availability with real calendar/PMS data before presenting it as actual availability
+  </script>
+</body>
+</html>
